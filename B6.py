@@ -9,7 +9,6 @@ for i in range(0, how_many):
 print(list)
 
 added = int(input("Jaką liczbę chcesz dodać? "))
-is_4_list = []
 if added == 4:
     list.append(added)
     print(f'{added} może zostać dodana do listy. Aktualna lista zawiera:')
