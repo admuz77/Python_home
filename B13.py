@@ -1,4 +1,4 @@
-# Napisz program obliczający saldo na koncie na bazie logów z bankomatu.
+# Napisz program obliczający saldo na koncie na bazie logów z bankomatu
 logs = [+300, +300, -200, +100]
 print(logs)
 result = sum(logs)
