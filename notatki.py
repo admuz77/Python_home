@@ -1,18 +1,26 @@
-numbers = tuple(range(2000,3001))
-#tworzę tuplę liczb podzielnych przez 7 z podanego zbioru
-split7 = []
-for i in numbers:
-     if i % 7 ==0:
-        split7.append(i)
-#tworzę tuplę liczb niepodzielnych przez 5 ze zbioru tych podzielnych przez 7
-split5 = []
-for x in split7:
-    if x % 5 > 0:
-        split5.append(x)
+#pobranie funkcji
+import numpy as np
+import matplotlib.pyplot as plt
+listx = []
+x = int(input("Podaj wartość x lub napisz koniec by zakończyć: "))
+listx.append(x)
+print(listx)
 
-print(split5)
-# result = []
-# for a in split7:
-#     if a in split5:
-#         result.append(a)
-# print(result)
+#
+# if x != end:
+#     listx.append(x)
+# if x == end:
+
+# list = []
+# for i in range(0, how_many):
+#     list.append(randint(0, 100))
+# print(list)
+#
+# added = int(input("Jaką liczbę chcesz dodać? "))
+# if added == 4:
+#     list.append(added)
+#     print(f'{added} może zostać dodana do listy. Aktualna lista zawiera:')
+#     print (list)
+# elif added != 4:
+#     print (f'{added} nie może zostać dodana do listy. Aktualna lista zawiera:')
+#     print (list)

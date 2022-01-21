@@ -1,5 +1,7 @@
 #Program sprawdzający czy słowe jest palindromem (czytane od tyłu brzmi tak samo)
 word = str(input("Wpisz słowo: "))
+word = word.replace(" ", "")
+word = word.lower()
 reverse_word = (word[::-1])
 print (reverse_word)
 if reverse_word == word:
